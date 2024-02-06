@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Calculadora con javascript</title>
+    <link href="calculadora.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="init();">
+    <table class="calculadora">
+        <tr>
+            <td colspan="4"><span id="titulo">Mi Calculadora. Por Adrian Dominguez Amador</span></td>
+        </tr>
+        <tr>
+            <td><button class="cb" id="siete">7</button></td>
+            <td><button class="cb" id="ocho">8</button></td>
+            <td><button class="cb" id="nueve">9</button></td>
+            <td><button class="cb" id="division">/</button></td>
+        </tr>
+        <tr>
+            <td><button class="cb" id="cuatro">4</button></td>
+            <td><button class="cb" id="cinco">5</button></td>
+            <td><button class="cb" id="seis">6</button></td>
+            <td><button class="cb" id="multiplicacion">*</button></td>
+        </tr>
+        <tr>
+            <td><button class="cb" id="uno">1</button></td>
+            <td><button class="cb" id="dos">2</button></td>
+            <td><button class="cb" id="tres">3</button></td>
+            <td><button class="cb" id="resta">-</button></td>
+        </tr>
+        <tr>
+            <td><button class="cb" id="igual">=</button></td>
+            <td><button class="cb" id="coregir">C</button></td>
+            <td><button class="cb" id="cero">0</button></td>
+            <td><button class="cb" id="suma">+</button></td>
+        </tr>
+        <tr><td><span id="r">Resultado:</span></td></tr>
+        <tr>
+            <td colspan="4"><span id="resultado"></span></td>
+        </tr>
+    </table>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
