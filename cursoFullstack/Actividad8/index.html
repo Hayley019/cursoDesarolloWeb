@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <title>Actividad Guiada 8</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Página 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Página 2</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://picsum.photos/1500/500" alt="">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Primer slide</h1>
+              <p>En este slide la alineación está a la izquierda</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/1500/500" alt="">
+
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Segundo Slide</h1>
+              <p>En este slide la alineación está al centro.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/1500/500" alt="">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Tercer Slide</h1>
+              <p>En este slide la alineación está a la derecha.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div class="container marketing">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="min" src="https://picsum.photos/140/140" alt="">
+
+          <h2 class="fw-normal">Título</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, illo. Aliquid corrupti quam dolores
+            tenetur facere similique quia neque. Impedit id aperiam architecto quidem vitae nemo error provident fugit
+            odit!</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="min" src="https://picsum.photos/140/140" alt="">
+
+          <h2 class="fw-normal">Título</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa cumque, vel corporis sapiente earum
+            consequuntur, doloribus mollitia asperiores quod veritatis quasi est sit quae maiores, deserunt tempora
+            praesentium a et.</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="min" src="https://picsum.photos/140/140" alt="">
+
+          <h2 class="fw-normal">Título</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum itaque aliquam ipsam voluptatibus aperiam odit
+            sequi natus placeat eius perferendis, rem reprehenderit voluptatem quod illum omnis tempora nobis, molestias
+            harum?</p>
+          <p><a class="btn btn-secondary" href="#">Ver más &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Nombre de un producto <span class="text-muted">O de una
+              característica interesante.</span></h2>
+          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, cupiditate perferendis unde
+            saepe tempora nam ullam culpa impedit quisquam mollitia ipsum itaque repellendus maiores beatae dolorem
+            doloribus enim delectus maxime?</p>
+        </div>
+        <div class="col-md-5">
+          <img class="img-fluid" src="https://picsum.photos/500/500" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Nombre de otro producto <span class="text-muted">O de otra
+              característica importante</span></h2>
+          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur enim ducimus culpa natus
+            dolor architecto at alias tempora! Recusandae magni laborum sunt commodi modi vitae dolor tenetur vel optio
+            porro.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="img-fluid" src="https://picsum.photos/500/500" alt="">
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Un último producto <span class="text-muted">o
+              característica.</span>
+          </h2>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem harum necessitatibus consequatur
+            voluptates, illo repudiandae in voluptate optio quas quam ut. Labore inventore adipisci veritatis. Illum
+            inventore voluptas nemo itaque.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="img-fluid" src="https://picsum.photos/500/500" alt="">
+
+        </div>
+      </div>
+      <hr class="featurette-divider">
+    </div>
+
+    <footer class="container">
+      <p class="float-end"><a href="#">Llévame arriba</a></p>
+      <p>&copy; 2022 Fundamentos de Desarrollo Web. &middot; <a href="#">Privacidad</a> &middot; <a href="#">Términos de
+          uso</a></p>
+    </footer>
+  </main>
+
+
+
+</body>
+
+</html>

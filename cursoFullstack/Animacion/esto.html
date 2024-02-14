@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores Aleatorios</title>
+</head>
+
+<body>
+
+    <script>
+        let iteration = 0; // Variable de control de ciclo
+        function generarNumero() { // Funcion 
+            if (iteration < 10){
+                let numero = Math.floor(Math.random() * 100) + 1;
+                let resultado = (numero % 2 === 0) ? "PAR" : "IMPAR";
+                mandarNumero(numero, resultado);
+                iteration++;
+                generarNumero();
+            }
+        }
+
+        function mandarNumero(numero, resultado) {
+            console.log(`Numero: ${numero} / ${resultado}`);
+        }
+
+        generarNumero()
+    </script>
+
+</body>
+
+</html>
